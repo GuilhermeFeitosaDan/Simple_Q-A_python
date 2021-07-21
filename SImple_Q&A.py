@@ -27,7 +27,7 @@ def questions(x):
         flag = 0           
         return flag, False
 
-# questions
+# questions [id_question , question, answer, flag to check if it was already asked]
 q1 = [1, "What does PLC mean?", "programmable logic controller", 0 ]
 q2 = [2, "What does PRG mean inside CODESYS?", "program", 0 ]
 q3 = [3, "What does FB mean inside CODESYS?", "function block", 0 ]
@@ -46,7 +46,7 @@ print("Hello, welcome to the Q&A game!!!")
 anw = input("Do you feel like playing it?  ('YES' or 'NO')")
 
 # inicialization of variables
-i = 0 
+i = 0
 score = 0
 
 if anw.lower() == "yes":
