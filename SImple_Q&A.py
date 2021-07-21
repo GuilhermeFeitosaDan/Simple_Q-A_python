@@ -1,3 +1,6 @@
+# Simple Q&A in Python by Guilherme Feitosa Dan
+# The objective was just to create a game where the questions would be asked randomly and to use a function that would call a list with all the possible questions
+
 import random
 
 def questions(x):
